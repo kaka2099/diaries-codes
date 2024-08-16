@@ -25,10 +25,10 @@ while True:
         if tentativa == aleatorio:
             print("                       ")
             print(f"É esse o número {aleatorio}. Parabéns, você acertou!!")
-            print(f"Você acertou em ")
-            break
+            print(f"Você acertou em {num_tentativas} tentivas")
+            break 
 
-        elif num_tentativas == 10:
+        if num_tentativas > 9:
             print(f"Você tentou {num_tentativas} vezes, você perdeu")
             break
 
